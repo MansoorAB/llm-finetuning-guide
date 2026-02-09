@@ -1,0 +1,156 @@
+[
+  {
+    "ticket_id": "TICKET-001",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "Medium",
+      "reasoning": "The significant degradation in call completion rates suggests that there may be an issue with the capacity or load handling in Region 3. However, the lack of recent changes makes it difficult to determine if this is the definitive cause.",
+      "recommended_next_action": "Investigate network capacity and load in Region 3 to identify any potential bottlenecks or overloads.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001",
+    "run_id": 2,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "Medium",
+      "reasoning": "The significant degradation in call completion rates suggests that there may be an issue related to the capacity or load in Region 3, especially since multiple users are affected. However, without specific metrics on load or capacity, this is not certain.",
+      "recommended_next_action": "Investigate the network capacity and load in Region 3 to determine if it is exceeding limits.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001",
+    "run_id": 3,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "Medium",
+      "reasoning": "The significant degradation in call completion rates suggests that there may be an issue related to capacity or load in Region 3, especially since there are multiple reports from users. However, without specific data on traffic levels or resource utilization, this remains uncertain.",
+      "recommended_next_action": "Investigate network capacity and resource utilization in Region 3 to determine if the issue is related to load.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001A",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "The information provided indicates an intermittent issue affecting multiple users without any recent changes logged, but does not specify whether it is due to configuration, capacity, or other potential causes.",
+      "recommended_next_action": "Investigate network performance metrics and user reports for patterns or anomalies.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001A",
+    "run_id": 2,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "The incident involves dropped calls that are intermittent and affect different user groups, but there are no recent changes logged that could indicate a specific cause. Without additional information on network conditions, configurations, or infrastructure status, it is difficult to pinpoint a definitive root cause.",
+      "recommended_next_action": "Investigate network performance metrics and user reports in Region 3 to identify any patterns or underlying issues.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001A",
+    "run_id": 3,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "The information provided indicates a pattern of dropped calls but lacks specific details about the network configuration, load conditions, or any external dependencies that could be contributing to the issue.",
+      "recommended_next_action": "Investigate network performance metrics in Region 3 and check for any external factors affecting call quality.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001B",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "High",
+      "reasoning": "The intermittent call disconnections and reduced call success rates suggest that the network may be experiencing capacity or load issues, especially since there are no configuration changes reported.",
+      "recommended_next_action": "Investigate network capacity and load in Region 3 to identify any potential bottlenecks or overloads.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "While the incident occurred post-deployment and high latencies are noted, it is unclear if the issue is directly linked to the deployment or if it is influenced by external factors.",
+      "recommended_next_action": "Investigate the deployment changes and monitor external factors that could affect data speeds.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-002A",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "The incident describes slow data speeds reported by users, but does not provide specific details about potential causes such as configuration, capacity, or infrastructure issues. The inconsistency in performance and lack of a clear trigger further complicate the diagnosis.",
+      "recommended_next_action": "Conduct further diagnostics to gather more data on the performance issues and identify potential root causes.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-002B",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Code Regression",
+      "confidence": "High",
+      "reasoning": "The incident occurred after a recent system release, suggesting that changes made in the code could have introduced issues affecting data throughput.",
+      "recommended_next_action": "Investigate the recent release for any changes that could impact data throughput and perform regression testing.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-003",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "The incident indicates signaling issues for SMS with failed attempts, but it does not provide enough detail to determine if the root cause is due to configuration, capacity, code, upstream dependencies, data quality, or environmental issues.",
+      "recommended_next_action": "Investigate the signaling pathways and network configuration to identify any anomalies or patterns in the failed attempts.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-004",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "High",
+      "reasoning": "The high latency during peak hours suggests that the system may be experiencing capacity or load issues, as the problem is time-dependent and correlates with increased usage.",
+      "recommended_next_action": "Monitor system load and performance metrics during peak hours to confirm if the issue is related to capacity.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-005",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Data Quality / Inconsistency",
+      "confidence": "High",
+      "reasoning": "The fluctuating call quality metrics across different regions suggest that there may be inconsistencies in the data being reported, rather than a single configuration issue affecting all regions.",
+      "recommended_next_action": "Investigate the data collection methods and ensure that metrics are being accurately captured and reported across all regions.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-006",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Upstream Dependency Failure",
+      "confidence": "High",
+      "reasoning": "The incident involves multiple users experiencing access issues, and the system logs indicate timeout errors despite the database status being normal. This suggests that the problem may lie with an upstream service or dependency that the customer portal relies on.",
+      "recommended_next_action": "Investigate the status and performance of upstream services that the customer portal depends on.",
+      "similar_incidents": []
+    }
+  }
+]

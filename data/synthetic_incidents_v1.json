@@ -1,0 +1,98 @@
+[
+  {
+    "ticket_id": "TICKET-001",
+    "short_description": "Dropped Calls in Region 3",
+    "detailed_notes": "Multiple reports from users in Region 3 experiencing dropped calls. KPIs show significant degradation in call completion rates since last week. No recent changes logged that could explain the issue.",
+    "severity": 2,
+    "true_root_cause": "Capacity / Load Issue",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "short_description": "Slow Data Speeds Post-Deployment",
+    "detailed_notes": "After the latest deployment, users are reporting slower than usual data speeds. Mediation logs indicate high latencies but it\u2019s unclear if this is related to the deployment or an external factor.",
+    "severity": 3,
+    "true_root_cause": "Unknown / Insufficient Data",
+    "ambiguity_level": "high"
+  },
+  {
+    "ticket_id": "TICKET-003",
+    "short_description": "Signaling Issues for SMS",
+    "detailed_notes": "Customers are unable to send SMS messages intermittently. CDRs show failed signaling attempts, but no alarms were triggered. Need to investigate further to determine if it's a network issue.",
+    "severity": 3,
+    "true_root_cause": "Environmental / Infrastructure Issue",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-004",
+    "short_description": "High Latency on VoIP Calls",
+    "detailed_notes": "VoIP calls are experiencing high latency. Probes indicate that latency spikes are occurring during peak hours. Not sure if it\u2019s a load issue or a problem with the routing configuration.",
+    "severity": 2,
+    "true_root_cause": "Capacity / Load Issue",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-005",
+    "short_description": "Inconsistent Call Quality Metrics",
+    "detailed_notes": "KPI reports show fluctuating call quality metrics over the past month. Some regions report crystal clear calls while others have persistent issues. Unable to trace back to specific configurations.",
+    "severity": 3,
+    "true_root_cause": "Data Quality / Inconsistency",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-006",
+    "short_description": "Inability to Access Customer Portal",
+    "detailed_notes": "Several users reported issues accessing the customer portal. System logs show timeout errors, but the DB status seems normal. Need further investigation into dependencies.",
+    "severity": 2,
+    "true_root_cause": "Upstream Dependency Failure",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-007",
+    "short_description": "Unexpected System Reboots",
+    "detailed_notes": "Noticed that several network devices rebooted unexpectedly over the last 48 hours. Environmental checks show no extreme conditions. Logs don't provide clear reasons.",
+    "severity": 3,
+    "true_root_cause": "Environmental / Infrastructure Issue",
+    "ambiguity_level": "high"
+  },
+  {
+    "ticket_id": "TICKET-008",
+    "short_description": "Post-Maintenance Outage in Sector A",
+    "detailed_notes": "After the scheduled maintenance, Sector A is experiencing complete service outage. No errors in the maintenance log, and monitoring tools show no alerts.",
+    "severity": 1,
+    "true_root_cause": "Unknown / Insufficient Data",
+    "ambiguity_level": "high"
+  },
+  {
+    "ticket_id": "TICKET-009",
+    "short_description": "Intermittent Connectivity Issues",
+    "detailed_notes": "Users are reporting intermittent connectivity issues across multiple devices. Initial checks show the network is operational, but specific locations are still affected.",
+    "severity": 2,
+    "true_root_cause": "Configuration Error",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-010",
+    "short_description": "CDR Processing Delays",
+    "detailed_notes": "Noticing delays in CDR processing, with some records not appearing in the reports. Mediation layer seems to be functioning, but no clear reason for the lag.",
+    "severity": 2,
+    "true_root_cause": "Capacity / Load Issue",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-011",
+    "short_description": "Dropped Data Connections",
+    "detailed_notes": "Users experiencing dropped data connections sporadically. Investigating if it's related to network load or some recent configuration changes.",
+    "severity": 2,
+    "true_root_cause": "Configuration Error",
+    "ambiguity_level": "medium"
+  },
+  {
+    "ticket_id": "TICKET-012",
+    "short_description": "Unexplained Signal Loss",
+    "detailed_notes": "Reports of signal loss from various users, but no corresponding alarms in the system. Could be related to environmental factors or something else entirely.",
+    "severity": 3,
+    "true_root_cause": "Environmental / Infrastructure Issue",
+    "ambiguity_level": "high"
+  }
+]

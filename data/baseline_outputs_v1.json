@@ -1,0 +1,112 @@
+[
+  {
+    "ticket_id": "TICKET-001",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "Medium",
+      "reasoning": "The significant degradation in call completion rates suggests that there may be an issue with the capacity or load handling in Region 3, especially since multiple users are affected. However, without specific data on traffic levels or infrastructure status, the confidence is medium.",
+      "recommended_next_action": "Investigate the current load and capacity of the network infrastructure in Region 3 to determine if it is being exceeded.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001",
+    "run_id": 2,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "Medium",
+      "reasoning": "The significant degradation in call completion rates suggests that there may be an overload or capacity issue affecting the network in Region 3, especially since no recent changes have been logged.",
+      "recommended_next_action": "Investigate network load and capacity in Region 3 to determine if it is exceeding limits.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-001",
+    "run_id": 3,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "Medium",
+      "reasoning": "The significant degradation in call completion rates suggests that the system may be experiencing capacity issues, especially since multiple users are affected. However, the lack of recent changes means it is not definitively a configuration error.",
+      "recommended_next_action": "Investigate network capacity and load in Region 3 to determine if it is exceeding limits.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "While the incident occurred post-deployment and users are experiencing slow data speeds, the logs indicate high latencies without clear evidence linking it directly to the deployment or ruling out external factors.",
+      "recommended_next_action": "Investigate the mediation logs further to determine if the high latencies correlate with the deployment or if there are external factors affecting performance.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "run_id": 2,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "While the incident occurred post-deployment and there are high latencies, the information does not clarify whether the issue is due to a configuration error, code regression, or an external factor. More data is needed to determine the exact cause.",
+      "recommended_next_action": "Investigate the deployment changes and monitor external factors that could affect data speeds.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-002",
+    "run_id": 3,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "While the incident occurred post-deployment and there are indications of high latencies, it is unclear if the cause is related to the deployment itself or an external factor. More information is needed to determine the exact root cause.",
+      "recommended_next_action": "Investigate the mediation logs further to identify if the latencies correlate with the deployment or if there are external factors affecting data speeds.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-003",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Unknown / Insufficient Data",
+      "confidence": "Medium",
+      "reasoning": "The details indicate signaling issues and failed attempts, but do not specify if the root cause is due to configuration errors, capacity issues, or other factors. More information is needed to accurately determine the root cause.",
+      "recommended_next_action": "Investigate the network configuration and capacity, and check for any recent changes or issues in upstream dependencies.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-004",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Capacity / Load Issue",
+      "confidence": "High",
+      "reasoning": "The high latency spikes occurring during peak hours suggest that the system may be experiencing capacity or load issues, as performance typically degrades under heavy usage.",
+      "recommended_next_action": "Monitor the system load and consider scaling resources or optimizing traffic management during peak hours.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-005",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Data Quality / Inconsistency",
+      "confidence": "High",
+      "reasoning": "The fluctuating call quality metrics across different regions suggest that there may be inconsistencies in the data being reported, rather than a specific configuration issue or a systemic failure.",
+      "recommended_next_action": "Investigate the data collection and reporting processes to identify any inconsistencies or errors.",
+      "similar_incidents": []
+    }
+  },
+  {
+    "ticket_id": "TICKET-006",
+    "run_id": 1,
+    "model_output": {
+      "root_cause": "Upstream Dependency Failure",
+      "confidence": "High",
+      "reasoning": "The reported timeout errors and the normal database status suggest that the issue may be related to an upstream service or dependency that the customer portal relies on, rather than a direct issue with the database itself.",
+      "recommended_next_action": "Investigate the status and performance of upstream services that the customer portal depends on.",
+      "similar_incidents": []
+    }
+  }
+]
